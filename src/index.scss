@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  background-color: #fcfcfc;
+  color: #181818;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+code {
+  font-family: monospace;
+  color: hsl(221, 76%, 62%);
+}
+
+p {
+  line-height: 1.5;
+}
+
+.text-center {
+  text-align: center;
+}
